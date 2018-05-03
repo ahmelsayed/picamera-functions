@@ -1,0 +1,9 @@
+-e git+https://github.com/Azure/azure-functions-python-worker.git@042f934e7af3af44794b36f34d15bc764d96a32a#egg=azure_functions_python
+cycler==0.10.0
+grpcio==1.9.1
+grpcio-tools==1.9.1
+protobuf==3.5.2.post1
+pyparsing==2.2.0
+python-dateutil==2.7.2
+pytz==2018.4
+six==1.11.0
