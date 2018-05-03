@@ -13,4 +13,4 @@ def main(req: func.HttpRequest) -> func.HttpResponse:
     sleep(2)
     camera.capture(stream, format='jpeg')
     camera.close()
-    return func.HttpResponse(stream.getValue(), mimetype="image/jpg", status_code=200)
+    return func.HttpResponse(stream.getvalue(), mimetype="image/jpg", status_code=200)
